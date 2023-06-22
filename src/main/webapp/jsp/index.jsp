@@ -61,7 +61,7 @@
 			<h2>Welcome to Coaching Management System</h2>
 			<p>Discover the best coaching courses for your academic and
 				professional growth.</p>
-			<a href="courses.html" class="btn">Explore Courses</a>
+			<a href="/student/viewcourse" class="btn">Explore Courses</a>
 		</div>
 	</section>
 
