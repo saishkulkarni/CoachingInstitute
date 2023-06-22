@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alef';
+}
+
+.admin1 {
+    color: white;
+    font-size: 1em;
+    position: relative;
+    left: -3em;
+}
+
+.admin:hover {
+    color: rgb(204, 255, 0);
+}
+
+.admin {
+    color: white;
+    margin-right: 50px;
+}
+
+.navbar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9rem;
+    background-color: honeydew;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-items: end;
+}
+
+.nav-links li {
+    margin-right: 30px;
+}
+
+.nav-links a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+.nav-links a:active {
+    background-color: #777;
+}
+
+.hero {
+    background-image: url("../images/img1.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: #fff;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background-color: #555;
+}
+
+.feature-section {
+    background-color: #f4f4f4;
+    padding: 8rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+}
+
+.feature i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-description {
+    color: #555;
+}
+
+.course-listing-section {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.course-card {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    
+
+}
+
+.course-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.course-description {
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.pricing-section {
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.pricing-card {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.plan-price {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.plan-features {
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.plan-features li {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    padding: 2rem 0;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-item {
+    flex-basis: 30%;
+    margin-bottom: 2rem;
+    margin-left: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.container-about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-section ul {
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-rights {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-info {
+    margin-bottom: 0.5rem;
+}
+
+.footer-icon {
+    font-size: 24px;
+    margin-right: 0.5rem;
+    color: #fff;
+}
+
+.footer-icon:hover {
+    color: #aaa;
+}
+
+
+/* navbar */
+
+#nav_bar {
+    width: 100%;
+    height: 3em;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cart {
+    color: white;
+    font-size: 1em;
+    position: relative;
+    left: -5em;
+}
