@@ -11,6 +11,7 @@
 	<groupId>org.jsp</groupId>
 	<artifactId>coaching</artifactId>
 	<version>1.0</version>
+	<packaging>jar</packaging>
 	<name>CoachingInstitute</name>
 	<description>Coaching Academy</description>
 	<properties>
